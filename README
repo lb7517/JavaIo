@@ -1,0 +1,7 @@
+FileTest 对文件类File的基本操作
+
+InputStream/OutputStream 字节流; Writer/reader字符流; InputStreamWriter/OutputStreamReader是字节流转字符流的桥梁，
+通过传字节流参数转换成Writer/Reader对象
+
+RandomAccessFile 的实例支持对随机文件的读取和写入;可以指定文件位置读取文件
+      有两种模式： r--读取  rw--读写
